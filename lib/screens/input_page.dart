@@ -181,7 +181,7 @@ class _InputPageState extends State<InputPage> {
                           style: kNumberTextStyle,
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             RoundIconButton(
                               iconData: FontAwesomeIcons.minus,
